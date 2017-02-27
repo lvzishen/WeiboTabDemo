@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/activity_background">
+
+    <FrameLayout
+        android:id="@+id/user_headview_back_fl"
+        android:layout_width="@dimen/dimens_55px"
+        android:layout_height="@dimen/dimens_55px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|top"
+            android:layout_marginLeft="@dimen/dimens_16px"
+            android:layout_marginTop="@dimen/dimens_9px"
+            android:scaleType="center"
+            android:src="@drawable/title_back" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/user_headview_go_user_setting"
+        android:layout_width="@dimen/dimens_55px"
+        android:layout_height="@dimen/dimens_55px"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|top"
+            android:layout_marginRight="@dimen/dimens_16px"
+            android:layout_marginTop="@dimen/dimens_9px"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_userinfo_edit" />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/user_headview_image_head"
+        android:layout_width="@dimen/dimens_64px"
+        android:layout_height="@dimen/dimens_64px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimens_32px"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/user_headview_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_headview_image_head"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimens_16px"
+        android:text="用户名"
+        android:textColor="@color/mine_text"
+        android:textSize="@dimen/dimens_16sp" />
+
+    <LinearLayout
+        android:id="@+id/user_headview_user_follow_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_headview_user_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimens_16px"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/user_headview_user_follower"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="粉丝 6"
+            android:textColor="@color/mine_text"
+            android:textSize="@dimen/dimens_12sp" />
+
+        <View
+            android:layout_width="@dimen/dimens_0.5px"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/dimens_2px"
+            android:layout_marginLeft="@dimen/dimens_3px"
+            android:layout_marginRight="@dimen/dimens_3px"
+            android:layout_marginTop="@dimen/dimens_2px"
+            android:background="@color/mine_text" />
+
+        <TextView
+            android:id="@+id/user_headview_user_follows"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="关注 52"
+            android:textColor="@color/mine_text"
+            android:textSize="@dimen/dimens_12sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/user_headview_user_intro"
+        android:layout_width="@dimen/dimens_300px"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_headview_user_follow_ll"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/dimens_15px"
+        android:layout_marginTop="@dimen/dimens_16px"
+        android:gravity="center"
+        android:text="最权威的精品生活引领者，文艺癌专科医院，治好的也不肯出院。"
+        android:textColor="@color/mine_text"
+        android:textSize="@dimen/dimens_14sp" />
+
+    <View
+        android:layout_below="@+id/user_headview_user_intro"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens_10px"
+        android:background="@color/background_gray" />
+</RelativeLayout>

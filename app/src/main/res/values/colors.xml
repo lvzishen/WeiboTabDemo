@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black_alpha_80">#CC000000</color>
+    <color name="black_alpha_75">#BF000000</color>
+    <color name="black_alpha_70">#B3000000</color>
+    <color name="black_alpha_65">#A6000000</color>
+    <color name="black_alpha_60">#99000000</color>
+    <color name="black_alpha_50">#80000000</color>
+    <color name="black_alpha_40">#66000000</color>
+    <color name="black_alpha_30">#4D000000</color>
+    <color name="black_alpha_20">#33000000</color>
+
+    <color name="dialog_button_pressed">#0A000000</color>
+    <color name="dialog_title_color">#5E5E5E</color>
+    <color name="dialog_text_color">#474747</color>
+    <color name="dialog_title_divider_color">#cccccc</color>
+    <color name="dialog_divider_color">#DADADA</color>
+    <color name="dialog_button_text_color">#AF000000</color>
+
+    <color name="primary">#050600</color>
+    <color name="primary_dark">#050600</color>
+    <color name="accent">#050600</color>
+    <color name="primaryText">#ffffff</color>
+    <color name="background_gray">#f7f7f7</color>
+    <color name="list_item_pressed_color">#FFF1F1F1</color>
+
+    <color name="huodong_spinner_background_normal">#2d2d2d</color>
+    <color name="activity_background">#FFFFFF</color>
+    <color name="title_item_background_normal">#00000000</color>
+    <color name="title_item_background_pressed">#33FFFFFF</color>
+    <color name="tab_text_color">#999999</color>
+    <color name="account_login">#1A999999</color>
+    <color name="divider_color">#D8D8D8</color>
+    <color name="tab_text_color_selected">#000000</color>
+    <color name="tab_background">#FCFCFC</color>
+    <color name="tab_split_color">#D6D6D6</color>
+    <color name="login_pop_color">#FF5454</color>
+    <color name="button_normal">#ff5722</color>
+    <color name="button_pressed">#ccff5722</color>
+    <color name="text_code">#FF999999</color>
+    <color name="mine_divder">#FFE5E5E5</color>
+    <color name="transparent">#00000000</color>
+    <color name="about_size_color">#FF001A36</color>
+    <color name="main_gray">#9A9A9A</color>
+    <color name="main_black">#353535</color>
+    <color name="gray_background">#FaFaFa</color>
+    <color name="list_item_background_normal">#ffffff</color>
+    <color name="list_item_background_pressed">#F1F1F1</color>
+    <color name="list_my_divider_color">#d9d9d9</color>
+
+
+    <color name="text_color">#FF4D7BFF</color>
+    <color name="text_dark">#af000000</color>
+    <color name="text_light">#3f000000</color>
+    <color name="light_gray">#1a000000</color>
+    <color name="bg_touch">#0a000000</color>
+
+
+    <color name="mine_text">#FF333333</color>
+    <color name="default_image">#eaeaea</color>
+    <color name="crop_blue_unselect">#FF0047FF</color>
+    <color name="crop_blue_select">#002B9C</color>
+    <color name="white40">#40FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray_change_password">#FFCCCCCC</color>
+    <color name="title_gray">#EEEEEE</color>
+    <color name="title_unselect">#666666</color>
+    <color name="black">#000000</color>
+    <color name="login_black">#101010</color>
+    <color name="gray">#666666</color>
+    <color name="gray_register">#bbbbbb</color>
+    <color name="red">#FF0000</color>
+    <color name="orange">#FA7500</color>
+    <color name="yellow">#F0D600</color>
+    <color name="green">#00D096</color>
+    <color name="use_other_gray">#B9B9B9</color>
+    <color name="blue">#00ADF2</color>
+    <color name="pink">#FF66FF</color>
+    <color name="phone_account">#FF666666</color>
+    <color name="purple">#9933CC</color>
+
+    <color name="apply_disable">#333333</color>
+    <color name="apply_enable">#f75a53</color>
+    <color name="selector_light">#50ffffff</color>
+    <color name="selector_light_stroke">#70ffffff</color>
+    <color name="selector_dark">#30000000</color>
+    <color name="selector_dark_stroke">#50000000</color>
+
+
+    <color name="update_finish_color">#44DB5E</color> <!--更新完成字体颜色 -->
+    <color name="update_error_color">#FE3824</color> <!--更新失败颜色 -->
+    <color name="update_textcolor">#0076FF</color> <!--更新字体颜色 -->
+    <color name="update_line">#D9D9D9</color> <!-- 更新框线 -->
+    <color name="update_textdesc">#9DCAF7</color> <!-- 更新描述信息 -->
+    <color name="update_text_pressed">#DCDCDC</color> <!-- 更新按钮信息 -->
+</resources>

@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="BaseAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@null</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+
+    <!-- SplashActivity  theme. -->
+    <style name="SplashTheme" parent="BaseAppTheme">
+        <!-- Customize your theme here. -->
+        <!--<item name="android:windowBackground">@null</item>       &lt;!&ndash;防止首页过度绘制黑屏白屏&ndash;&gt;-->
+        <item name="android:windowBackground">@null</item>       <!--防止首页过度绘制黑屏白屏-->
+        <item name="android:windowNoTitle">true</item>           <!--防止首页启动时白屏 变成透明了-->
+        <item name="android:windowIsTranslucent">true</item>     <!--防止首页启动时白屏 变成透明了-->
+    </style>
+</resources>

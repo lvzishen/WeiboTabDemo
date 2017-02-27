@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_background"
+    tools:context="com.ifengart.tablistdemo.MainActivity">
+
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/activity_user_homepage_srl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/activity_user_homepage_rv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
+            android:scrollbars="vertical" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <com.ifengart.tablistdemo.UserTitle
+        android:id="@+id/activity_user_homepage_ut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</FrameLayout>
